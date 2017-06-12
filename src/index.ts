@@ -3,6 +3,6 @@
 
 
 export * from "./lib/KoDecorators";
-export * from "./app/components/HelloComponent";
+export * from "./app/components/AppComponent";
 export * from "./app/components/ChildComponent";
 export * from "./app/AppModule";

@@ -1,14 +1,23 @@
 <!doctype html>
+<html>
 <head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
     <link rel="stylesheet" type="text/css" href="./style.css" />
 
     <!-- Polyfill(s) for older browsers -->
-    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script> -->
     <!-- <script src="node_modules/core-js/client/shim.min.js"></script> -->
 
     <script src="http://knockoutjs.com/downloads/knockout-3.4.2.debug.js"></script>
 </head>
 <body>
-    <div data-bind='component: { name: "hello", params: { firstName: "Jane", lastName: "Doe" } } '></div>
+    <div data-bind='
+        component: {
+            name: "app",
+            params: {
+                firstName: "Jane",
+                lastName: "Doe"
+            }
+        } '></div>
     <script src="./koapp.js"></script>
 </body>
+</html>

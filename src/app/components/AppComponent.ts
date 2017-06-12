@@ -2,8 +2,8 @@
 import { KoComponent, KoComponentBase } from "../../lib/KoDecorators";
 
 
-@KoComponent("hello", {
-    template: require("./HelloComponent.html"),
+@KoComponent("app", {
+    template: require("./AppComponent.html"),
 })
 export class HelloComponent extends KoComponentBase {
     public firstName: KnockoutObservable<string>;
