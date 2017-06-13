@@ -1,7 +1,7 @@
 
 import { KoModule }       from "../lib/KoDecorators";
-import { ChildComponent } from "./components/ChildComponent";
 import { AppComponent }   from "./components/AppComponent";
+import { ChildComponent } from "./components/ChildComponent";
 
 
 @KoModule("KoApp", {
