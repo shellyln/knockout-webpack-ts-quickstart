@@ -1,5 +1,6 @@
 
-import { KoComponent, KoComponentBase } from "../../lib/KoDecorators";
+import { KoComponent }     from "../../lib/KoDecorators";
+import { KoComponentBase } from "../../lib/KoComponentBase";
 
 
 @KoComponent("child", {

@@ -1,7 +1,7 @@
 {
     "compilerOptions": {
-        "module": "commonjs",
-        "target": "es2015",
+        "module": "es6",
+        "target": "es2016",
         "lib": ["dom", "es6", "es2015", "es2016", "es2017", "scripthost"],
         "sourceMap": true,
         "noEmitOnError": true,
@@ -17,7 +17,7 @@
         "paths": {
         },
         "traceResolution": true,
-        "types": ["node", "knockout"]
+        "types": ["node", "jquery", "bootstrap", "knockout"]
     },
     "exclude": [
         "bin",
