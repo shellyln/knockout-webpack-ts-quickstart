@@ -11,6 +11,6 @@ describe("AppComponent", function() {
 
     it("AppComponent#constructor", function() {
         comp = new AppComponent({firstName: "abc", lastName: "def"});
-        expect(comp.firstName()).toEqual("abc");
+        expect(comp.fullName()).toEqual("abc def");
     });
 });

@@ -55,7 +55,8 @@ module.exports = function (config) {
         webpack: require('./webpack.v1.config'),
 
         reporters: [
-            'progress',
+            'spec',
+            // 'progress',
             // 'kjhtml'
         ],
 
@@ -65,6 +66,6 @@ module.exports = function (config) {
         autoWatch: false,
         browsers: ['Chrome'],
         singleRun: true,
-        //concurrency: Infinity
+        // concurrency: Infinity
     })
 }
