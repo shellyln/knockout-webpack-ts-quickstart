@@ -38,8 +38,8 @@
     "serve": "lite-server -c=bs-config.json",
     "watch": "webpack --config webpack.config.js --watch",
     "start": "run-p watch serve",
-    "postinstall": "run-s --silent rebuild",
-    "prepublish": "run-s --silent rebuild test clean"
+    "xxxpostinstall": "run-s --silent rebuild",
+    "xxxprepublish": "run-s --silent rebuild test clean"
   },
   "repository": {
     "type": "git",
