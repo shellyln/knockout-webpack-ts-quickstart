@@ -20,7 +20,7 @@
         "baseUrl": ".",
         "paths": {
         },
-        "types": ["node", "knockout", "jasmine"]
+        "types": ["node", "jquery", "bootstrap", "knockout", "jasmine"]
     },
     "exclude": [
         "bin",

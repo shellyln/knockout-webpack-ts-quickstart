@@ -1,10 +1,12 @@
 
-import { ChildComponent, HelloComponent, KoModule } from "../index";
+import { KoModule }       from "../lib/KoDecorators";
+import { AppComponent }   from "./components/AppComponent";
+import { ChildComponent } from "./components/ChildComponent";
 
 
 @KoModule("KoApp", {
     declarations: [
-        HelloComponent,
+        AppComponent,
         ChildComponent,
     ],
 })
