@@ -84,7 +84,10 @@ module.exports = [
             }]
         },
         resolve: {
-            extensions: ['.tsx', '.ts', '.jsx', '.js', '.scss', '.css', '']
+            // [FIX]: Add extensions for fixing following error.
+            // Module not found: Error: Cannot resolve 'file' or 'directory' node_modules/style-loader/lib
+            //                   @ ./~/style-loader/lib/addStyles.js 44:14-31
+            extensions: ['.scss', '.css', '', '.js']
         },
         postcss: [
             require('postcss-custom-properties')(),

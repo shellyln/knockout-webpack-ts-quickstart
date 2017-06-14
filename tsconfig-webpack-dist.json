@@ -17,7 +17,7 @@
         "paths": {
         },
         "traceResolution": true,
-        "types": ["node", "jquery", "bootstrap", "knockout"]
+        "types": ["node", "jquery", "bootstrap", "knockout", "jasmine"]
     },
     "exclude": [
         "bin",
