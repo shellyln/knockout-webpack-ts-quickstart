@@ -1,5 +1,5 @@
 # knockout-webpack-ts-quickstart
-Quickstart project for knockout.js + TypeScript with Webpack2.
+Quickstart project for knockout.js + TypeScript + decorators with Webpack2.
 
 [![npm](https://img.shields.io/npm/v/knockout-webpack-ts-quickstart.svg)](https://www.npmjs.com/package/knockout-webpack-ts-quickstart)
 [![GitHub release](https://img.shields.io/github/release/shellyln/knockout-webpack-ts-quickstart.svg)](https://github.com/shellyln/knockout-webpack-ts-quickstart/releases)
@@ -10,6 +10,8 @@ Quickstart project for knockout.js + TypeScript with Webpack2.
 ---
 
 ### Features
+* Use decorators similar syntax to Angular.  
+  See `src/app/AppModule.ts` and `src/app/components/*Component.ts`.
 * Compile TypeScript source and output as single file with source map.
 * Compile SCSS, do auto-prefixing (PostCSS), and output as single CSS file with source map.
 * Run unit tests ([jasmine](https://jasmine.github.io/)).
@@ -21,6 +23,8 @@ Quickstart project for knockout.js + TypeScript with Webpack2.
 * Include Visual Studio Code debugger and tasks configurations.
 
 
+### Use with legacy IE (IE 7/8)
+See [legacy-ie-fix](https://github.com/shellyln/knockout-webpack-ts-quickstart/tree/legacy-ie-fix) branch.
 
 
 # Usage (Starting your project)

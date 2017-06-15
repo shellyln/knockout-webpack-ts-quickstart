@@ -1,19 +1,23 @@
 {
   "name": "knockout-webpack-ts-quickstart",
   "version": "0.0.1",
-  "description": "Quickstart project for knockout.js + TypeScript with Webpack2.",
+  "description": "Quickstart project for knockout.js + TypeScript + decorators with Webpack2.",
   "keywords": [
     "Quickstart",
     "Webpack",
     "Webpack2",
     "knockout.js",
+    "decorator",
     "TypeScript",
     "SCSS",
     "PostCSS",
     "CI",
     "scaffolding",
     "Getting started",
-    "Starter"
+    "Starter",
+    "IE",
+    "IE7",
+    "IE8"
   ],
   "main": "./bin/index.js",
   "typings": "./declarations/index.d.ts",
@@ -39,7 +43,8 @@
     "watch": "webpack --config webpack.config.js --watch",
     "start": "run-p watch serve",
     "xxxpostinstall": "run-s --silent rebuild",
-    "xxxprepublish": "run-s --silent rebuild test clean"
+    "xxxprepublish": "run-s --silent rebuild test clean",
+    "prepublish": "run-s --silent clean"
   },
   "repository": {
     "type": "git",
