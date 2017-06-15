@@ -21,7 +21,7 @@ Quickstart project for knockout.js + TypeScript with Webpack2.
 * Include Visual Studio Code debugger and tasks configurations.
 
 
-### For Legacy IE fix (for IE 7/8)
+### For Legacy IE (IE 7/8)
 * Don't ugrify. (prevent emitting `defineProperty`)
 * Don't use `export *` statement. (prevent emitting `defineProperty`)
 * tsc should emit output as `es6` module format. (prevent emitting `defineProperty`)

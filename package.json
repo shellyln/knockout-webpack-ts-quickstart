@@ -1,7 +1,7 @@
 {
-  "name": "knockout-webpack-ts-quickstart",
+  "name": "knockout-webpack-ts-quickstart-for-legacy-ie",
   "version": "0.0.1",
-  "description": "Quickstart project for knockout.js + TypeScript with Webpack2.",
+  "description": "Quickstart project for knockout.js + TypeScript with Webpack2 (for legacy IE 7/8).",
   "keywords": [
     "Quickstart",
     "Webpack",
@@ -13,7 +13,10 @@
     "CI",
     "scaffolding",
     "Getting started",
-    "Starter"
+    "Starter",
+    "IE",
+    "IE7",
+    "IE8"
   ],
   "main": "./bin/index.js",
   "typings": "./declarations/index.d.ts",
@@ -39,7 +42,8 @@
     "watch": "webpack --config webpack.v1.config.js --watch",
     "start": "run-p watch serve",
     "xxxpostinstall": "run-s --silent rebuild",
-    "xxxprepublish": "run-s --silent rebuild test clean"
+    "xxxprepublish": "run-s --silent rebuild test clean",
+    "prepublish": "run-s --silent clean"
   },
   "repository": {
     "type": "git",
@@ -50,7 +54,7 @@
   },
   "author": "shellyln",
   "license": "MIT",
-  "homepage": "https://github.com/shellyln/knockout-webpack-ts-quickstart",
+  "homepage": "https://github.com/shellyln/knockout-webpack-ts-quickstart/tree/legacy-ie-fix",
   "devDependencies": {
     "@types/bootstrap": "^3.3.33",
     "@types/jasmine": "^2.5.51",
