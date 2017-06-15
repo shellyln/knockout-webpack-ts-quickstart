@@ -1,12 +1,13 @@
 {
   "name": "knockout-webpack-ts-quickstart-for-legacy-ie",
   "version": "0.0.1",
-  "description": "Quickstart project for knockout.js + TypeScript with Webpack2 (for legacy IE 7/8).",
+  "description": "Quickstart project for knockout.js + TypeScript + decorators with Webpack 1.x (for legacy IE 7/8).",
   "keywords": [
     "Quickstart",
     "Webpack",
     "Webpack2",
     "knockout.js",
+    "decorator",
     "TypeScript",
     "SCSS",
     "PostCSS",

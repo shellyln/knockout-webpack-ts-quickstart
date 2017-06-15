@@ -1,5 +1,5 @@
 # knockout-webpack-ts-quickstart-for-legacy-ie
-Quickstart project for knockout.js + TypeScript + decorators with Webpack2 (for legacy IE).
+Quickstart project for knockout.js + TypeScript + decorators with Webpack 1.x (for legacy IE).
 
 [![npm](https://img.shields.io/npm/v/knockout-webpack-ts-quickstart.svg)](https://www.npmjs.com/package/knockout-webpack-ts-quickstart)
 [![GitHub release](https://img.shields.io/github/release/shellyln/knockout-webpack-ts-quickstart.svg)](https://github.com/shellyln/knockout-webpack-ts-quickstart/releases)
@@ -31,7 +31,7 @@ Quickstart project for knockout.js + TypeScript + decorators with Webpack2 (for 
 * Pin some dependencies' version.
 
 
-### Use with latest browsers
+### Use with latest browsers + Webpack 2
 See [master](https://github.com/shellyln/knockout-webpack-ts-quickstart) branch.
 
 ---
