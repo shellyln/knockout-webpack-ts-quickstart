@@ -1,6 +1,6 @@
 {
   "name": "knockout-webpack-ts-quickstart",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "Quickstart project for knockout.js + TypeScript + decorators with Webpack2.",
   "keywords": [
     "Quickstart",
