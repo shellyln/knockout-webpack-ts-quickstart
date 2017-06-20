@@ -18,6 +18,7 @@ module.exports = [
             path: './dist',
             devtoolModuleFilenameTemplate: void 0
         },
+        target: "web",
         module: {
             preLoaders: [{
                 test: /\.[tj]sx?$/,
